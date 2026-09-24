@@ -1,0 +1,170 @@
+[
+  {
+    "id": "DIAG-01",
+    "topic": "Fractions",
+    "question": "Compute 3/4 + 2/3 and explain the common denominator.",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-02",
+    "topic": "Percentages",
+    "question": "A price rises 20% then falls 20%. Is it unchanged?",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-03",
+    "topic": "Ratio",
+    "question": "Split 420 in the ratio 2:5.",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-04",
+    "topic": "Units",
+    "question": "Convert 72 km/h to m/s.",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-05",
+    "topic": "Powers",
+    "question": "Compare (-3)^2 and -3^2.",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-06",
+    "topic": "Estimation",
+    "question": "Estimate 49.8 times 20.2 before computing.",
+    "repair_unit": "U001"
+  },
+  {
+    "id": "DIAG-07",
+    "topic": "Equation",
+    "question": "Solve 3(x-2)=2x+5 and check.",
+    "repair_unit": "U005"
+  },
+  {
+    "id": "DIAG-08",
+    "topic": "Functions",
+    "question": "Does f(x)=x squared satisfy f(a+b)=f(a)+f(b)?",
+    "repair_unit": "U009"
+  },
+  {
+    "id": "DIAG-09",
+    "topic": "Geometry",
+    "question": "Find area of a triangle with base 8 cm and height 5 cm.",
+    "repair_unit": "U005"
+  },
+  {
+    "id": "DIAG-10",
+    "topic": "Graphs",
+    "question": "Explain slope and intercept of y=3x-2.",
+    "repair_unit": "U005"
+  },
+  {
+    "id": "DIAG-11",
+    "topic": "Logarithms",
+    "question": "Solve 2 to the power x = 32.",
+    "repair_unit": "U009"
+  },
+  {
+    "id": "DIAG-12",
+    "topic": "Proof",
+    "question": "Prove that the sum of two even integers is even.",
+    "repair_unit": "U014"
+  },
+  {
+    "id": "DIAG-13",
+    "topic": "Mechanics",
+    "question": "What is the net force at constant velocity?",
+    "repair_unit": "U010"
+  },
+  {
+    "id": "DIAG-14",
+    "topic": "Energy",
+    "question": "Explain the ideal work to lift mass m through height h.",
+    "repair_unit": "U010"
+  },
+  {
+    "id": "DIAG-15",
+    "topic": "Circuit",
+    "question": "Current and power for 5 V across 1000 ohms?",
+    "repair_unit": "U015"
+  },
+  {
+    "id": "DIAG-16",
+    "topic": "Waves",
+    "question": "Relate wave speed, frequency and wavelength.",
+    "repair_unit": "U010"
+  },
+  {
+    "id": "DIAG-17",
+    "topic": "Matter",
+    "question": "Distinguish element, compound and mixture with examples.",
+    "repair_unit": "U011"
+  },
+  {
+    "id": "DIAG-18",
+    "topic": "Reaction",
+    "question": "Balance H2 + O2 -> H2O.",
+    "repair_unit": "U011"
+  },
+  {
+    "id": "DIAG-19",
+    "topic": "Moles",
+    "question": "Approximately how many moles in 18 g of water?",
+    "repair_unit": "U011"
+  },
+  {
+    "id": "DIAG-20",
+    "topic": "Scientific reasoning",
+    "question": "Two programs timed once on different laptops: valid speed comparison?",
+    "repair_unit": "U002"
+  },
+  {
+    "id": "DIAG-21",
+    "topic": "Measurement",
+    "question": "Report 10.1, 10.2, 10.1 cm readings responsibly.",
+    "repair_unit": "U002"
+  },
+  {
+    "id": "DIAG-22",
+    "topic": "English",
+    "question": "Read a page and write a 120-word summary distinguishing fact from inference.",
+    "repair_unit": "U004"
+  },
+  {
+    "id": "DIAG-23",
+    "topic": "Computer model",
+    "question": "Explain CPU, RAM and persistent storage.",
+    "repair_unit": "U003"
+  },
+  {
+    "id": "DIAG-24",
+    "topic": "Files",
+    "question": "Copy a file, rename safely, delete only a duplicate and restore it.",
+    "repair_unit": "U003"
+  },
+  {
+    "id": "DIAG-25",
+    "topic": "Representation",
+    "question": "Convert binary 1011 to decimal and hexadecimal.",
+    "repair_unit": "U007"
+  },
+  {
+    "id": "DIAG-26",
+    "topic": "Program trace",
+    "question": "Trace a loop adding 1, 2 and 3 to an initial zero.",
+    "repair_unit": "U003"
+  },
+  {
+    "id": "DIAG-27",
+    "topic": "Testing",
+    "question": "Give normal, boundary and invalid cases for division.",
+    "repair_unit": "U007"
+  },
+  {
+    "id": "DIAG-28",
+    "topic": "Security literacy",
+    "question": "Why are updates, unique passwords, MFA and backups different?",
+    "repair_unit": "U003"
+  }
+]
