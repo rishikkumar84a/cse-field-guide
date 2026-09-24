@@ -1,0 +1,16 @@
+/dist/
+/node_modules/
+/.sites-runtime/
+/test-results/
+/playwright-report/
+/.env
+/.env.*
+!/.env.example
+*.log
+*.tar.gz
+*.zip
+*.pdf
+*.xlsx
+*.docx
+__pycache__/
+.DS_Store

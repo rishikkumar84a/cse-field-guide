@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite CSE Field Guide when referring to this software and curriculum organization; cite external learning resources separately."
+title: "CSE Field Guide"
+type: software
+version: 2.0.0
+authors:
+  - family-names: Chaurasiya
+    given-names: Rishik Kumar
+    website: "https://rishik.tech"
+repository-code: "https://github.com/rishikkumar84a/cse-field-guide"
+url: "https://cse.rishik.tech"
+license: MIT
+abstract: "A rigorous seven-year self-directed Computer Science & Engineering education and mastery system, with curriculum browsing, prerequisites, resources, laboratories, projects and local progress tracking."
+keywords:
+  - computer science
+  - computer engineering
+  - self-directed education
+  - curriculum
+  - open educational project
