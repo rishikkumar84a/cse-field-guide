@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#082c42"><meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="A rigorous seven-year self-directed Computer Science & Engineering education and mastery system.">
+  <meta property="og:title" content="CSE Field Guide">
+  <meta property="og:description" content="Learn • Build • Explore • Become. A Seven-Year Computer Science & Engineering Journey.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://seven-cse-field-guide.contact246469.chatgpt.site/assets/social-preview.png">
+  <meta property="og:image:alt" content="CSE Field Guide compass and open-book logo. Learn • Build • Explore • Become.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CSE Field Guide">
+  <meta name="twitter:description" content="A Seven-Year Computer Science & Engineering Journey">
+  <meta name="twitter:image" content="https://seven-cse-field-guide.contact246469.chatgpt.site/assets/social-preview.png">
+  <title>CSE Field Guide</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="assets/logo.png"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="rebrand.css">
+  <script src="app.js" defer></script>
+  <script src="features.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to curriculum</a>
+  <aside class="sidebar">
+    <a class="brand" href="#/first14" aria-label="CSE Field Guide home"><span class="logo-crop"><img src="assets/logo.png" alt="" width="1280" height="1280"></span><span>CSE<br>Field Guide</span></a>
+    <div class="workspace-label">Learn • Build • Explore • Become</div>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <button data-view="first14">First14</button>
+      <button data-view="diagnostics">Diagnostics</button>
+      <button data-view="curriculum">Curriculum</button>
+      <button data-view="graph">Prerequisite graph</button>
+      <button data-view="active">Active learning path</button>
+      <button data-view="resources">Master resource catalogue</button>
+      <button data-view="labs">Laboratories</button>
+      <button data-view="projects">Projects</button>
+      <button data-view="specialization">Specialization</button>
+      <button data-view="sources">About & sources</button>
+    </nav>
+    <div class="nav-label">YOUR PATH</div>
+    <nav id="year-nav" aria-label="Curriculum years"></nav>
+    <div class="sidebar-bottom">
+      <div class="local-label"><span class="green-dot"></span> Progress on this device</div>
+      <div class="progress-line"><strong id="side-completed">0</strong><span id="side-total"> / 75 units complete</span></div>
+      <div class="meter"><i id="side-meter"></i></div>
+      <div class="backup-actions"><button id="export-progress">Export backup ↗</button><button id="import-progress">Import</button></div>
+      <small>Stored in this browser. No cloud sync.</small>
+    </div>
+  </aside>
+  <main id="main" tabindex="-1">
+    <header class="topbar"><span class="breadcrumb">CSE Field Guide <span>/</span> <b id="page-crumb">First14</b></span><span class="private-badge">V2.0 · Local progress</span></header>
+    <div id="storage-warning" class="warning hidden" role="status"></div>
+    <section class="hero">
+      <div><div class="eyebrow">A Seven-Year Computer Science & Engineering Journey</div><h1 id="page-title">Your first fourteen days</h1><p id="page-description">Set up, diagnose, and begin with evidence.</p></div>
+      <div class="hero-aside"><button class="primary-button" id="continue-study">Open U001 <span>↗</span></button></div>
+    </section>
+    <div class="source-bar"><span>Source edition</span><label class="sr-only" for="edition">Source edition</label><select id="edition"><option value="v2">V2.0 · Canonical · 75 units</option><option value="checkpoint">Archive · Checkpoint · 75 units</option><option value="gold">Archive · Gold v1.0 · 69 units</option></select><span class="source-note" id="edition-note">11,200 planned active hours</span><button id="source-info" aria-label="Inspect source fidelity">Source notes ↗</button></div>
+    <section id="workspace-content" aria-label="Curriculum explorer"><div class="loading"><img src="assets/logo.png" alt="CSE Field Guide" width="110" height="110"><p>Loading CSE Field Guide…</p></div></section>
+    <footer><span class="footer-brand"><img src="assets/logo.png" alt="CSE Field Guide" width="72" height="72"><span>CSE Field Guide<br>Learn • Build • Explore • Become</span></span><span>Self-directed education · No degree or accredited credits<br>Maintained by Rishik Kumar Chaurasiya</span></footer>
+  </main>
+  <dialog id="unit-dialog" aria-labelledby="unit-title"><div id="unit-content"></div></dialog>
+  <dialog id="resource-dialog" aria-labelledby="resource-title"><div id="resource-content"></div></dialog>
+  <dialog id="activity-dialog" aria-labelledby="activity-title"><div id="activity-content"></div></dialog>
+  <input type="file" id="backup-file" accept="application/json,.json" hidden>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
