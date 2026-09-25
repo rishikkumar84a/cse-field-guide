@@ -1,27 +1,17 @@
 # Changelog
 
-## 2.0.0 — 2026-09-21
+## 1.0.0 — 2026-09-25
 
-- Adopt the CSE Field Guide identity and supplied logo across the existing
-  application, metadata, favicon, loading view, footer, and social asset.
-- Synchronize CSE Engineer Master Package V2.0: U001–U075, 14 semesters,
-  11,200 planned active hours, 38 lab sequences, 24 projects, and one selected
-  specialization from the sixteen supplied track options.
-- Preserve all 1,550 catalogue records, all 473 original resource IDs,
-  source-qualified aliases, provenance, verification states, and supplementary
-  source tables. Keep the active learning path separate from the catalogue.
-- Add First14, DIAG-01–DIAG-28 with review after submission, active semester
-  queues, specialization details, and the complete prerequisite graph.
-- Distinguish 146 hard prerequisite rows, four staged co-requisite rows, and
-  four same-semester module-gate rows without rewriting the source.
-- Extend local progress to starting sessions, diagnostics, labs, projects, and
-  specialization; preserve old backups and edition-specific records.
-- Retain the previous checkpoint and Gold editions as labelled archives.
-- Separate editable source from generated deployment output; add reproducible
-  build, syntax checks, data-integrity tests, and progress regression tests.
-- Add public project documentation, contribution/security guidance, MIT licensing
-  for original project work, and citation metadata.
-
-The intended cse.rishik.tech domain remains unconnected by this release. No DNS,
-Vercel, or portfolio changes are included. External resource statuses are
-preserved from the package; this release does not claim fresh link verification.
+- Publish CSE Field Guide with its official identity, logo, creator attribution
+  and project documentation.
+- Provide 75 curriculum units across fourteen semesters and 11,200 planned
+  active hours, including 38 laboratory sequences and 24 engineering projects.
+- Include First14, 28 diagnostics, prerequisite navigation, a dependency graph,
+  semester study queues and one specialization from sixteen track options.
+- Keep the 1,550-record resource catalogue separate from active assignments;
+  retain all 473 original resource IDs, verification states and provenance.
+- Support local learning records and compatible backup import/export, with
+  separate progress for archived study records.
+- Add direct page URLs, canonical metadata, sitemap, robots file and a 404 page.
+- Configure static production hosting on Vercel for cse.rishik.tech.
+- Provide reproducible integrity, progress, routing, syntax and build checks.

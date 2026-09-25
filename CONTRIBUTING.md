@@ -24,10 +24,10 @@ justifies its maintenance, accessibility, and security cost.
 
 ## Curriculum and data
 
-CSE Engineer Master Package V2.0 is the canonical baseline. Curriculum changes
+The current 75-unit curriculum is the canonical baseline. Curriculum changes
 need a separate rationale and maintainer review. Do not shorten the curriculum,
 change hours to make a test pass, renumber entities, turn catalogue candidates
-into assignments, or merge the archived 69-unit edition into V2.0.
+into assignments, or merge archived study records into current progress.
 
 For a proposed data correction, include:
 
@@ -47,10 +47,11 @@ must be resolved within their original source release; a global search/replace
 can link a learner to the wrong resource. Repeated source mapping rows may be
 intentional and must not be silently deleted.
 
-The importer and manifest make source changes reviewable. Re-import only from
-an authorized, explicitly selected source version. Update manifests and tests
-with evidence, not merely to silence a failing integrity check. Preserve the
-previous source's identity when a new version is introduced.
+The integrity manifest makes changes reviewable. Review proposed data changes
+against their primary sources, then update collection digests with
+`node scripts/refresh-integrity.mjs`. Inspect the data diff before changing the
+manifest. Preserve resource IDs, provenance, original resource ownership and
+verification distinctions; a new digest alone is not evidence of correctness.
 
 ## Documentation and submissions
 

@@ -1,6 +1,6 @@
 # Security and privacy
 
-The maintained release line is 2.x. Archived curriculum editions are data views,
+The maintained release line is 1.x. Archived curriculum editions are data views,
 not separate maintained application releases.
 
 ## Reporting a vulnerability

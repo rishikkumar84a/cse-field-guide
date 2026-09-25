@@ -1,220 +1,241 @@
-<p align="center"><img src="web/assets/logo.png" width="280" alt="CSE Field Guide — compass, open technical book and circuitry"></p>
-
 # CSE Field Guide
 
-**Learn • Build • Explore • Become**
+### Learn • Build • Explore • Become
 
-A rigorous seven-year self-directed Computer Science & Engineering education and mastery system. CSE Field Guide turns the **CSE Engineer Master Package V2.0** into a navigable learning workspace: a preserved curriculum, explicit dependencies, carefully scoped study routes, engineering laboratories, projects, and evidence-based local progress. It is designed for sustained study across computing, science, mathematics, and engineering practice.
+An interactive seven-year Computer Science & Engineering education and mastery system for independent learners.
 
-**Live website / intended project address:** [cse.rishik.tech](https://cse.rishik.tech) — domain connection is pending.
+<p align="center"><img src="web/assets/logo.png" alt="CSE Field Guide" width="320"></p>
 
-**Current working deployment:** [CSE Field Guide on ChatGPT Sites](https://seven-cse-field-guide.contact246469.chatgpt.site).
+**Live Website:** [https://cse.rishik.tech](https://cse.rishik.tech)
 
-No DNS, Vercel, or portfolio changes are part of this release.
+**Created and maintained by:** Rishik Kumar Chaurasiya
+**Portfolio:** [rishik.tech](https://rishik.tech) · [www.rishik.tech](https://www.rishik.tech)
+**GitHub:** [rishikkumar84a/cse-field-guide](https://github.com/rishikkumar84a/cse-field-guide)
 
-![CSE Field Guide curriculum explorer](docs/site-preview.jpg)
+## Overview
 
-## Project overview
+CSE Field Guide combines curriculum planning, prerequisite navigation, learning resources, laboratories, projects, assessment and local progress tracking. It provides a structured route from foundational mathematics, science and computing to advanced engineering, one specialization and independent investigation. Learning is demonstrated through problems, experiments, implementations, reports and review, rather than through a list of visited links.
 
-A large reading list does not explain what to learn next or what counts as understanding. This project connects units to prerequisites, selected chapters, practice, experiments, and learning evidence. It preserves the complete seven-year architecture while making the next useful step easier to find.
+## Why CSE Field Guide
 
-V2.0 is the canonical edition. The older checkpoint and incomplete 69-unit Gold branch remain available as clearly labelled archives, with separate progress records. They do not replace or reduce the 75-unit curriculum.
+Independent study needs more than a collection of courses. Learners need to know what comes first, what to study now, how subjects connect and what evidence demonstrates understanding. This project makes those relationships inspectable while keeping a broad resource catalogue separate from the work currently assigned.
 
-## Curriculum at a glance
+## Curriculum at a Glance
 
 | Component | Planned scope |
-| --- | ---: |
-| Foundation Years | 2 |
-| Engineering Years | 5 |
-| Semesters | 14 |
-| Units | 75 — U001–U075 |
-| Planned Active Hours | 11,200 |
-| Laboratory Sequences | 38 |
-| Projects | 24 |
-| Primary Specialization | 1, selected from 16 supplied tracks |
+| --- | --- |
+| Foundation | 2 Foundation Years |
+| Engineering | 5 Engineering Years |
+| Semesters | 14 Semesters |
+| Curriculum | 75 Units, U001–U075 |
+| Time | 11,200 Planned Active Hours |
+| Laboratories | 38 Labs |
+| Engineering work | 24 Projects |
+| Specialization | One Specialization, selected from 16 track options |
 
-Lab and project hours belong to their parent-unit allocations; they are not added again to the total. Planned hours are a study budget, not a promise of mastery or a required calendar pace.
+Laboratory and project hours are included in parent-unit allocations. Do not add them again. The catalogue contains **1,550 resource records**, including all **473 original resource IDs**. Archived study records are available separately for reference and progress compatibility; the current curriculum always contains all 75 units.
 
-The master catalogue contains **1,550 resource records**, preserving **all 473 original resource IDs**. Catalogue membership does not mean every resource must be completed.
+## What It Covers
 
-## What it covers
-
-- **Mathematics and sciences:** arithmetic through calculus, linear algebra, probability, statistics, discrete mathematics, proof, physics, chemistry, and materials.
-- **Engineering foundations:** electrical circuits, measurement, electronics, digital logic, engineering graphics and CAD, design, and hardware/software interfaces.
-- **Core computing:** programming, data structures, algorithms, architecture, operating systems, databases, networks, theory of computation, compilers, and programming languages.
-- **Advanced work:** AI/ML, security, distributed systems, parallel computing, embedded and real-time systems, graphics/HCI, specialization, literature review, reproduction, and bounded research.
-- **Engineering practice:** requirements, trade-offs, testing, reliability, performance, documentation, communication, ethics, maintenance, and defensible evidence.
+- Mathematics, proof, probability, statistics and numerical methods.
+- Physics, chemistry, materials, measurement, engineering drawing and CAD.
+- Circuits, electronics, digital logic, architecture and embedded systems.
+- Programming, algorithms, data structures, languages, compilers and computation theory.
+- Operating systems, networks, databases, distributed systems and parallel computing.
+- Security, cryptography, formal methods, AI and machine learning.
+- Software engineering, design, testing, reliability, professional ethics and technical communication.
+- Specialization, research literacy, independent engineering systems and external defense.
 
 ## Features
 
-- **Curriculum explorer:** Year → Semester → Unit navigation, topic and progress filters, unit details, and shareable hash routes.
-- **Prerequisite graph:** all 75 units; inspect hard prerequisites, staged co-requisites, and same-semester module gates separately.
-- **First14 and diagnostics:** fourteen starting sessions and DIAG-01–DIAG-28, with answer review available after an attempt is submitted.
-- **Active learning path:** fourteen semester queues and exact per-unit scopes, using NOW, NEXT, REFERENCE, OPTIONAL, LATER, and ARCHIVE categories.
-- **Master resource catalogue:** search by title, creator, topic, or ID; filter by type, mapped year, and exact current verification status. There is no 1,550-item completion checklist.
-- **Laboratories and projects:** source contracts, modes, measurements, safety notes, assessments, allocations, and evidence records.
-- **Specialization:** select one primary track while keeping the supplied alternatives and literature maps available.
-- **Progress tracking:** browser-local unit, First14, diagnostic, lab, and project records; validated JSON backup import/export. Previous-edition progress stays separate.
-- **Verification and provenance:** preserved status strings, dates, access limits, original source rows, source-qualified aliases, and complete resource records.
+- Curriculum explorer with Year → Semester → Unit navigation and direct links to every unit.
+- Prerequisite graph distinguishing hard dependencies, staged co-requisites and module gates.
+- First14 orientation and 28 diagnostics with review after an attempted response.
+- Active learning paths with assigned scopes, sequencing and stopping points.
+- Searchable resource catalogue with type, year and verification filters.
+- Complete laboratory, project and specialization contracts.
+- Browser-local progress, evidence notes and validated JSON backup import/export.
+- Resource provenance, source-qualified aliases and preserved verification states.
+- Responsive interface, keyboard navigation, page metadata, sitemap and a 404 page.
 
-## How to start
+## How to Start
 
-1. Open **First14** and establish your learning, error, reading, and evidence logs.
-2. Attempt **Diagnostics** independently. Submit your reasoning before opening the review key; classify weaknesses using evidence.
-3. Go to **Foundation Year 1**, then **U001–U004**. Repair missing prerequisites before dependent work.
-4. Follow the **Active learning path** for the current semester. Use the catalogue when a mapped task or a specific gap calls for it.
-5. Record actual problem solving, experiments, tests, reports, and explanations. Export a progress backup regularly, especially before changing browsers or domains.
+1. Open [First14](https://cse.rishik.tech/first14) and establish a repeatable study routine.
+2. Attempt the [Diagnostics](https://cse.rishik.tech/diagnostics) independently and record your reasoning.
+3. Enter [Foundation Year 1](https://cse.rishik.tech/curriculum/FY1).
+4. Begin with U001–U004, following prerequisites, repair routes and the active semester scope.
+5. Keep evidence of your work and export progress backups regularly.
 
-Marking a unit complete is a self-report. It does not complete its prerequisites or certify competence.
+The starting route is **First14 → Diagnostics → Foundation → U001–U004**. Skip material only when you can demonstrate the required competence.
+
+## First14 and Diagnostics
+
+First14 contains fourteen starting sessions. DIAG-01 through DIAG-28 help identify skills as MASTERED, PARTIAL, WEAK or MISSING. Answer review is loaded only after submission and shown only for an attempted item. Classification does not automatically complete a curriculum unit.
+
+The application is a self-study tool. Answer keys are public source files, so the interface does not provide a secure or proctored examination system.
+
+## Prerequisite System
+
+**Hard prerequisites** identify required earlier knowledge. **Staged co-requisites** permit carefully ordered work within a semester. **Same-semester module gates** require particular evidence before a later module begins. The graph and unit detail pages expose these relationships separately.
+
+The source records 146 hard-prerequisite rows, four staged co-requisite rows and four module-gate rows. The U068 → U070 relationship appears as both a hard prerequisite and a module gate; both are retained for review. Completing a dependent unit never automatically completes its prerequisites.
+
+## Labs and Projects
+
+The 38 laboratory sequences specify objectives, theory, equipment, setup, safety, experiments, measurements, analysis, reports and assessment. The 24 projects include requirements, constraints, architecture, alternatives, implementation, testing, security, operations and maintenance.
+
+Physical, simulated, virtual, remote and software evidence remain distinct. A simulation does not establish physical laboratory competence. Project completion requires actual work and evidence; catalogue labels do not certify execution.
+
+## Resource Catalogue
+
+The **master catalogue** is a broad reference universe. The **active learning path** is the smaller set relevant to current study, with exact chapters, lectures, practice, experiments and projects where recorded.
+
+| Label | Purpose |
+| --- | --- |
+| NOW | Current semester pool, narrowed by assigned unit scopes |
+| NEXT | Resources for the next planned stage |
+| OPTIONAL | Enrichment or alternatives |
+| LATER | Deferred work and explicit stopping points |
+| REFERENCE | Consult when needed |
+| ARCHIVE | Historical material without a current reading obligation |
+
+Candidates, incomplete records, duplicate access routes and quarantined identities remain labelled. Catalogue membership is not an assignment. Source-qualified aliases prevent reused historical IDs from pointing to the wrong resource.
+
+## Resource Verification
+
+Verification labels describe the evidence recorded for a resource, not a promise of availability today.
+
+| Label | What it establishes |
+| --- | --- |
+| PAGE VERIFIED | A page-level identity or metadata check was recorded |
+| DIRECT ACCESS VERIFIED | Direct access to the resource was recorded |
+| METADATA VERIFIED / BIBLIOGRAPHY VERIFIED | Specified descriptive or bibliographic information was checked |
+| ACCESS NOT VERIFIED / NOT VERIFIED | The relevant check is absent or incomplete |
+| RESTRICTED | Access is limited or blocked |
+| BROKEN | A failed route is recorded |
+| ARCHIVED | Material or a route is retained as an archive |
+| DESIGNED | An activity has been specified; execution is not established |
+| APP PLAYABILITY VERIFIED | An interactive application was checked for playability |
+| PLAYBACK NOT VERIFIED | Video or audio playback has not been established |
+
+Primary catalogue states are currently 570 PAGE VERIFIED, 60 DIRECT ACCESS VERIFIED, 876 NOT VERIFIED, 39 RESTRICTED and 5 BROKEN. Other dimensions and inherited labels remain in the detailed records. A URL existing does not verify playback, repository execution, licensing, book stock, current price or learner mastery. Availability may change; preserve inspection dates and evidence when proposing updates.
+
+## Progress Tracking
+
+Progress, notes, diagnostic attempts and specialization selection use browser `localStorage`. There are no learner accounts, cloud synchronization or progress databases. Records are specific to a browser profile and website origin.
+
+Use **Export backup** before changing browsers or domains or clearing storage. Import validates IDs, statuses, types and note sizes before merging; imported records replace matching records. Earlier backup formats remain accepted, and archive progress stays separate from current curriculum progress. Do not commit personal backups to this repository.
 
 ## Architecture
 
-The application is a dependency-free static site built with HTML, CSS, and browser JavaScript. The existing navigation, cards, dialogs, filters, and progress workflow are extended incrementally for V2.0.
+The application uses HTML, CSS and plain browser JavaScript with no third-party JavaScript dependencies.
 
 | Layer | Files | Responsibility |
 | --- | --- | --- |
-| Curriculum | `data/curriculum.json` | Units, dependencies, module gates, maps, First14, active scopes, tracks, and source corrections |
-| Resources | `data/resources.json` | Canonical 1,550-record catalogue, including verification and access metadata |
-| Labs/projects | `data/practice.json` | Full laboratory and project contracts with parent-unit allocations |
-| Diagnostics | `data/diagnostics.json`, `data/diagnostic-keys.json` | Learner questions and separately loaded review keys |
-| Provenance | `data/provenance.json` | Historical rows, source-qualified aliases, collisions, verification evidence, and audits |
-| Source preservation | `data/source-manifest.json`, `data/source-views.json` | Source hashes, baseline ID checks, supplementary planning tables, and original grouped snapshots |
-| Archived editions | `data/legacy-editions.json` | Existing checkpoint and Gold data, kept separate from V2.0 |
-| Application | `web/` | Rendering, navigation, search, local progress, and official branding |
+| Curriculum | `data/curriculum.json` | Units, dependencies, gates, scopes, First14 and specialization structure |
+| Resources | `data/resources.json`, `data/provenance.json` | Catalogue, verification evidence and aliases |
+| Reference tables | `data/resource-reference.json` | Resource groupings, comparisons, coverage and planning context |
+| Laboratories/projects | `data/practice.json` | Activity contracts and hour allocations |
+| Diagnostics | `data/diagnostics.json`, `data/diagnostic-keys.json` | Learner prompts and separately loaded review keys |
+| Integrity | `data/integrity.json` | Original IDs, unit placements, counts and collection digests |
+| Archives | `data/curriculum-archives.json` | Separate archived study records and year labels |
+| Application | `web/` | Navigation, rendering, search, dialogs and local progress |
+| Build | `scripts/` | Static routes, metadata, sitemap, local server and syntax checks |
 
-The initial learner payload excludes diagnostic answer keys and the larger provenance history. Keys load only after submission/review; provenance loads on request. Because this is open static software, keys remain inspectable in the repository and by someone deliberately fetching the file. Diagnostics are independent practice, not secure examinations.
+The UI adapts source records for display without renumbering entities or silently changing their meaning. Resource records retain original authorship and provenance; internal collection identifiers use stable catalogue labels.
 
-There is no application backend, account database, analytics, or cloud progress synchronization. The hosting provider may apply its own access controls. Personal learning records remain in the browser unless the learner exports or shares a backup.
+## Project Structure
 
-## Resource verification
+```text
+web/
+  index.html, 404.html, robots.txt
+  app.js, features.js
+  style.css, rebrand.css
+  assets/                     Official logo, favicon and social preview
+data/                         Structured curriculum and resource data
+scripts/
+  build.mjs                   Generate deployable static pages in dist/
+  dev.mjs                     Local development server
+  routes.mjs                  Valid routes, page metadata and sitemap
+  check-syntax.mjs            JavaScript syntax checks
+  refresh-integrity.mjs       Update reviewed collection digests
+tests/                       Data, progress and route regression tests
+docs/VALIDATION.md            Recorded release checks
+vercel.json                   Static hosting configuration
+package.json                  Commands and software version
+```
 
-Verification describes the specific evidence recorded by the source, at its recorded date. A working URL alone does not establish legal full-text access, correct scope, video playback, code execution, licensing, or learning quality. This synchronization performs **no new external-resource verification**.
+## Local Development
 
-The canonical primary status field contains:
-
-| Preserved status | Records | Interpretation |
-| --- | ---: | --- |
-| PAGE VERIFIED | 570 | Page identity, visible metadata, or official linkage was checked; downstream access may remain uncertain. |
-| DIRECT ACCESS VERIFIED | 60 | The source records direct access to the inspected content; other claims still require their own evidence. |
-| NOT VERIFIED | 876 | The required verification is not established. |
-| RESTRICTED | 39 | Access is restricted or requires conditions recorded in the resource. |
-| BROKEN | 5 | The source records a broken route. Retained for traceability and possible repair. |
-
-Other fields and historical rows retain their exact supplied labels and explanations, including metadata/bibliography checks, access/playback limitations, archived records, and designed but unexecuted activities. Do not promote one kind of check into another. The catalogue filter uses the current primary status; inspect resource details for the other dimensions.
-
-Aliases are qualified by source release. A historical identifier reused for a different resource must not be globally rewritten. Duplicate mapping rows are retained in the data and grouped only for display.
-
-## Local development
-
-Prerequisite: **Node.js 20 or newer**. Python 3 is needed only to re-import an authorized source package.
+Use **Node.js 20 or later** and npm.
 
 ```sh
 git clone https://github.com/rishikkumar84a/cse-field-guide.git
 cd cse-field-guide
+npm install --ignore-scripts
 npm run dev
 ```
 
-Open `http://localhost:5173`. No dependency installation, API key, environment file, database, or account setup is required. The development server also accepts `--host` and `--port`, for example:
+Open `http://localhost:5173`. No application environment variables or external services are required. Optional development arguments:
 
 ```sh
-npm run dev -- --host 127.0.0.1 --port 8080
+npm run dev -- --host 127.0.0.1 --port 5173
 ```
 
-Create the production output with:
-
-```sh
-npm run build
-```
-
-Serve the resulting `dist/` directory with a static HTTP server. Opening `index.html` directly as a `file:` URL will not reliably load the JSON data.
-
-## Project structure
-
-```text
-data/                         Canonical and archived structured data
-web/
-  index.html                  App shell and social metadata
-  app.js                      Existing explorer, dialogs, filters and progress
-  features.js                 V2.0 views and source adapters
-  style.css                   Existing design system
-  rebrand.css                 Identity and responsive refinements
-  assets/                     Supplied logo, favicon and social preview
-scripts/
-  sync-v2.py                  Deterministic, lossless source import
-  build.mjs                  Copies web/ and data/ into dist/
-  dev.mjs                    Local static development server
-  check-syntax.mjs            JavaScript syntax checks
-tests/                        Data-integrity and progress regression tests
-docs/                         Release validation evidence
-.openai/hosting.json           Existing Sites deployment manifest
-LICENSE                       MIT license for original project work
-CONTRIBUTING.md                Code, curriculum and resource change guidance
-SECURITY.md                    Vulnerability reporting and privacy boundaries
-CHANGELOG.md                   Release changes
-CITATION.cff                   Project citation metadata
-```
-
-`dist/`, local environment files, source ZIPs/PDFs/spreadsheets, temporary previews, and test output are excluded from Git.
+Do not open HTML directly through a file URL: structured data is loaded over HTTP.
 
 ## Testing
 
 ```sh
-npm test
 npm run lint
+npm test
 npm run build
 ```
 
-Tests check IDs, counts, planned hours, original-ID preservation, exact source field hashes, dependency references, source aliases, resource mappings, diagnostic-key separation, and progress backup validation. They also check legacy progress isolation, reload persistence of stored records, invalid-import rejection, and protection of unreadable saved data.
+Lint performs JavaScript syntax checks. There is no configured TypeScript or separate type-check command. Tests cover curriculum counts, all original IDs, collection digests, references, verification states, diagnostic key separation, backup compatibility, atomic import validation and static routing. The build produces `dist/` and a sitemap from known routes.
 
-`npm run lint` is a JavaScript syntax check; this repository does not claim a separate style-lint engine. Browser review covers the navigation, filters, dialogs, diagnostics, progress, and responsive layouts; see [release validation](docs/VALIDATION.md) for the actual tested scope and limitations.
+Browser review should cover desktop and mobile layouts, search/filter combinations, prerequisite links, diagnostics before and after submission, progress persistence, import/export and deep-route refreshes. See [release validation](docs/VALIDATION.md) for checks actually performed.
 
-To re-import the same canonical V2.0 data from authorized local source files:
-
-```sh
-python3 scripts/sync-v2.py /path/to/package_data.json /path/to/original-resource-database.json
-npm test
-```
-
-The importer reads JSON only; it does not execute archive scripts. The manifest identifies the canonical recovery source and its SHA-256. Original ZIPs and third-party source content are not distributed with the application.
+Data changes require review of their meaning, not just new digests. After an approved data change, use `node scripts/refresh-integrity.mjs`, inspect the diff and rerun all checks. Never adjust data to make a count pass.
 
 ## Deployment
 
-The current application uses **ChatGPT Sites static hosting**. `npm run build` produces `dist/`; the existing `.openai/hosting.json` selects that directory. A release uses a committed and pushed source state, a saved build artifact, and a Sites deployment of that saved version. The project identifier in the manifest is hosting identity, not a credential; forks must use their own hosting project.
+The production target is **Vercel**, connected to this GitHub repository, with **Cloudflare** managing DNS for `cse.rishik.tech`. `vercel.json` declares a static project, build command `npm run build`, output directory `dist`, clean URLs and response headers. No server functions, database or application secrets are required.
 
-Hash routes keep unit and view navigation compatible with static hosting. The development server is not a production service. There are no runtime secrets or server-side application services to configure.
+Production deployments use `main`; pull-request deployments can be used for review. Each known page has a generated HTML entry with matching canonical metadata, so direct links and refreshes work without a catch-all route. Unknown paths use `404.html`.
 
-[cse.rishik.tech](https://cse.rishik.tech) is the intended project domain. Its connection is deliberately deferred. No Vercel project, custom-domain attachment, DNS change, or replacement of [rishik.tech](https://rishik.tech) is performed by this repository release. Social-image URLs currently reference the working Sites deployment and should be updated when a domain migration is explicitly authorized.
+Set only the `cse.rishik.tech` DNS record to the exact target supplied by the Vercel project. The portfolio domains `rishik.tech` and `www.rishik.tech` are separate and must remain unchanged. Deployment and domain status are recorded in [release validation](docs/VALIDATION.md).
 
 ## Contributing
 
-Code fixes, accessibility improvements, documentation corrections, and evidence-backed resource updates are welcome. Open an issue describing the problem and affected IDs, then propose a focused pull request. Keep curriculum changes separate from resource verification and interface changes.
-
-Preserve IDs, planned hours, prerequisite semantics, source history, and verification distinctions. Record exact evidence for a status change; do not change a status merely because a URL responds. Follow [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md). Report sensitive security issues using [SECURITY.md](SECURITY.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for code, accessibility, curriculum and resource changes. Include affected IDs, a focused explanation and reproducible evidence. Preserve verification distinctions, provenance, curriculum relationships and progress compatibility. Follow the [code of conduct](CODE_OF_CONDUCT.md) and report sensitive vulnerabilities according to [SECURITY.md](SECURITY.md).
 
 ## License
 
-Original source code, original project documentation, and original curriculum organization/metadata are available under the [MIT License](LICENSE). This license grants only rights held by the project. It does not relicense referenced third-party works or imply endorsement through the project name or logo.
+The project's original source code and original documentation are available under the [MIT License](LICENSE). The license does not transfer ownership of third-party resources, trademarks, quoted titles or bibliographic metadata, and does not change their existing rights or licence terms.
 
-## Content / copyright
+## Content and Copyright
 
-Third-party books, papers, courses, videos, repositories, standards, and documentation are **linked or referenced**. They are not republished as project-owned content. Their authors, publishers, institutions, and other rights holders retain their rights. Follow the license, access conditions, and attribution requirements at each original source. A free-to-read page is not necessarily freely redistributable.
-
-Resource titles, citations, links, and provenance describe external material. No university logo is used, and the project claims no university affiliation.
+Third-party books, papers, courses, lectures, videos, datasets, standards and documentation are linked or referenced, not republished as project-owned content. Original authors, publishers and institutions retain their rights. Follow the resource's own licence, access conditions and attribution requirements. Do not submit unauthorized copies of external works.
 
 ## Limitations
 
-- This is **self-directed education**. It does not award a university degree or provide accredited credits.
-- Resource availability and access conditions can change. Some catalogue resources remain unverified, restricted, broken, or quarantined by the source.
-- Planned breadth, hours, and completion marks do not establish equivalence to an accredited programme or guarantee employment.
-- Curriculum completion requires actual learning evidence, independent work, laboratory practice, assessment, and review.
-- Browser storage is device/origin-specific and can be cleared or unavailable. Keep backups; changing domains does not transfer progress automatically.
-- A simulation does not substitute for physical competence. Follow each lab's prerequisites and safety constraints, with suitable supervision where needed.
-- No claim is made that every linked course was completed, every video played, every code example executed, or every catalogue item newly verified.
+- CSE Field Guide is a self-directed educational and software project. It does not award a university degree, accredited credits or professional registration.
+- It does not imply university affiliation, official certification or guaranteed career outcomes.
+- Resource availability changes; some catalogue resources remain unverified, restricted, broken or incomplete.
+- Curriculum completion requires actual learning evidence and appropriate independent review.
+- Planned hours are estimates, and physical laboratory access and equipment may require separate arrangements.
+- Progress is local to one browser and domain unless exported and imported.
+- Diagnostic review is suitable for self-study, not secure examinations.
 
-## Author / maintainer
+## Creator & Maintainer
 
 **Rishik Kumar Chaurasiya**
 
-Portfolio: [rishik.tech](https://rishik.tech)
+- Portfolio: [https://rishik.tech](https://rishik.tech)
+- Portfolio: [https://www.rishik.tech](https://www.rishik.tech)
+- GitHub profile: [rishikkumar84a](https://github.com/rishikkumar84a)
+- Repository: [cse-field-guide](https://github.com/rishikkumar84a/cse-field-guide)
+- Website: [https://cse.rishik.tech](https://cse.rishik.tech)
 
-Use [CITATION.cff](CITATION.cff) when referencing the project. Cite original external resources separately when using them.
+Citation metadata is provided in [CITATION.cff](CITATION.cff).

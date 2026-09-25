@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "Please cite CSE Field Guide when referring to this software and curriculum organization; cite external learning resources separately."
 title: "CSE Field Guide"
 type: software
-version: 2.0.0
+version: 1.0.0
+date-released: 2026-09-25
 authors:
   - family-names: Chaurasiya
     given-names: Rishik Kumar
