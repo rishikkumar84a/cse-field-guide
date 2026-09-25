@@ -41,5 +41,36 @@ This review does not imply that third-party resource URLs were freshly verified.
 
 ## Browser and production status
 
-Browser, deployment, domain and HTTPS checks are pending publication. Build and
-unit-test results above do not claim those checks have passed.
+Production is available at https://cse.rishik.tech on Vercel. The production
+deployment is READY and was built from GitHub main commit
+`f1c258d952d93315fe65638c2b66a535d33278a4`. Its build logs confirm that all
+2,135 static page routes and the sitemap were generated successfully.
+
+Verified against the live deployment:
+
+- Homepage, U001 and U075 deep links, About, Diagnostics, robots.txt and sitemap.xml
+  return HTTP 200 over HTTPS.
+- Unknown routes return the custom HTTP 404 page.
+- Direct page responses contain the expected titles and canonical URLs.
+- First14 renders fourteen sessions; Diagnostics renders DIAG-01 through DIAG-28.
+- Diagnostic answer review is hidden before an attempt is submitted.
+- U001 opens from the diagnostic repair route; unit details survive a page refresh.
+- A changed unit status and evidence note persist through a full browser refresh.
+- HTTPS responses include HSTS, content-type protection and framing protection.
+- Cloudflare has a DNS-only CNAME for cse.rishik.tech targeting
+  59d3fb422986e249.vercel-dns-017.com.
+- The portfolio DNS records are unchanged. https://rishik.tech redirects to
+  https://www.rishik.tech, which returns HTTP 200 with the maintainer's portfolio.
+
+## Verification limits
+
+Live browser checks of catalogue search/filter interactions and the mobile viewport
+were not completed in this verification session. Automated route and integrity
+checks cover the generated routes; not every route was individually visited in a
+browser. HTTPS loaded successfully, but certificate issuer and expiry were not
+separately inspected.
+
+Diagnostic keys are deferred until review in the normal learner interface. This
+static application is not a secure examination system: technically skilled users
+can retrieve published assessment data. Progress is self-reported and browser-local.
+Third-party resource availability and verification labels have not been upgraded.
