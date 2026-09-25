@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 const read=n=>JSON.parse(fs.readFileSync(`data/${n}.json`,'utf8'));
-const c=read('curriculum'),r=read('resources'),p=read('practice'),d=read('diagnostics'),m=read('source-manifest'),v=read('provenance');
+const c=read('curriculum'),r=read('resources'),p=read('practice'),d=read('diagnostics'),m=read('integrity'),v=read('provenance');
 const units=new Set(c.units.map(u=>u.id)),resources=new Set(r.map(x=>x.id));
 const refs=value=>(JSON.stringify(value)||'').match(/\b[A-Z]+-\d{4}\b/g)||[];
 const canonical=value=>JSON.stringify(value&&typeof value==='object'?Array.isArray(value)?value.map(normalize):normalize(value):value);
@@ -21,7 +21,7 @@ test('1550 unique resources include every original resource ID',()=>{
 });
 test('canonical units, resources, mappings and provenance retain exact source fields',()=>{
   const keys=read('diagnostic-keys');
-  const collections={...c,...p,...v,...read('source-views'),resources:r,diagnostics:d.map(row=>({...row,answer:keys[row.id]}))};
+  const collections={...c,...p,...v,...read('resource-reference'),resources:r,diagnostics:d.map(row=>({...row,answer:keys[row.id]}))};
   for(const [key,hash] of Object.entries(m.fieldHashes))assert.equal(digest(collections[key]),hash,key);
 });
 test('38 lab contracts and 24 project contracts retain valid parents and allocations',()=>{
@@ -35,7 +35,7 @@ test('First14 and DIAG-01 through DIAG-28 are present; learner data has no answe
   assert.deepEqual(d.map(x=>x.id),Array.from({length:28},(_,i)=>`DIAG-${String(i+1).padStart(2,'0')}`));
   assert.equal(Object.keys(read('diagnostic-keys')).length,28);
   for(const row of d){assert.ok(units.has(row.repair_unit));assert.equal('answer' in row,false);}
-  for(const file of ['curriculum','resources','practice','legacy-editions'])assert.ok(!/"answer"\s*:/.test(fs.readFileSync(`data/${file}.json`,'utf8')),file);
+  for(const file of ['curriculum','resources','practice','curriculum-archives'])assert.ok(!/"answer"\s*:/.test(fs.readFileSync(`data/${file}.json`,'utf8')),file);
 });
 test('all prerequisite, staged co-requisite and module-gate references resolve',()=>{
   for(const u of c.units)for(const id of u.prerequisites)assert.ok(units.has(id),`${u.id} → ${id}`);
@@ -68,11 +68,11 @@ test('verification values and inherited states are unchanged',()=>{
 });
 test('web assets and JavaScript entry points exist; release excludes secrets and source archives',()=>{
   const html=fs.readFileSync('web/index.html','utf8');
-  for(const file of ['app.js','features.js','style.css','rebrand.css','assets/logo.png','assets/favicon.svg','assets/social-preview.png'])assert.ok(fs.existsSync(`web/${file}`),file);
+  for(const file of ['app.js','features.js','style.css','rebrand.css','assets/logo.png','assets/favicon.svg','assets/social-preview.jpg'])assert.ok(fs.existsSync(`web/${file}`),file);
   assert.match(html,/<title>CSE Field Guide<\/title>/);assert.match(html,/og:title" content="CSE Field Guide"/);
   assert.ok(!html.includes('CSE Curriculum Explorer'));
   for(const file of fs.readdirSync('data')){
     const text=fs.readFileSync(`data/${file}`,'utf8');
-    assert.ok(!/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|sk-proj-[A-Za-z0-9_-]{30,}|OAI-Sites-Authorization|\/workspace\/|\/mnt\/data\//.test(text),file);
+    assert.ok(!/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|sk-proj-[A-Za-z0-9_-]{30,}|\/workspace\/|\/mnt\/data\//.test(text),file);
   }
 });

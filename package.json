@@ -1,10 +1,12 @@
 {
   "name": "cse-field-guide",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "An interactive seven-year Computer Science & Engineering curriculum explorer.",
+  "description": "An interactive seven-year self-directed Computer Science and Engineering education and mastery system.",
   "license": "MIT",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
